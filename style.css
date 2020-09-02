@@ -1,0 +1,31 @@
+#header {
+    position:absolute;
+    left: 22%;
+    top: 45px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 12px;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    box-shadow: 0 0 5px 3px #6d70d0;
+}
+
+.info {
+    font-size: 140px;
+    
+}
+
+.daysText {
+    color: black;
+    font-size: 25px;
+}
