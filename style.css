@@ -1,10 +1,26 @@
-#header {
-    position:absolute;
-    left: 22%;
-    top: 45px;
-    color: red;
-    text-transform: uppercase;
+body {
+    background: rgb(63,251,97);
+    background: linear-gradient(90deg, rgba(63,251,97,1) 0%, rgba(148,134,173,1) 50%, rgba(207,70,252,1) 100%);
 }
+
+#header {
+    position:relative;
+    top: 45px;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: purple;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container {
     position: absolute;

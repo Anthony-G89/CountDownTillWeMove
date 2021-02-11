@@ -1,7 +1,7 @@
 function countDown () {
     var today = new Date();
 
-    var eventDate = new Date("September 27, 2020 00:00:00");
+    var eventDate = new Date("March 31, 2021 2:00");
     
 
     var currentDate = today.getTime();
@@ -30,6 +30,10 @@ function countDown () {
     document.getElementById("seconds").innerHTML = sec ;
 
     setTimeout(countDown, 1000)
+
+    if(hrs,min,sec === 0) {
+        alert("hello");
+    }
 }
 
 countDown();
